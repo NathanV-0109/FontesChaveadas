@@ -1,0 +1,33 @@
+Fontes Chaveada de Tensão
+
+Fontes:
+As tecnologias atualmente empregadas na construção de fontes de tensão regulada são basicamente três: ferro-ressonante, linear e chaveada.
+
+Fontes Ferro-Ressonantes
+As fontes ferro-ressonantes têm esse nome porque se baseiam no princípio de ferro-ressonância e são compostas basicamente por um transformador operando com o secundário saturado. Operando em saturação, a densidade de fluxo no secundário é praticamente constante, fazendo com que a tensão de saída permaneça constante mesmo com variações(tipicamente da ordem de +15%) da tnsão de entrada. Embora a eficiência(parcela da potência total de entrada que é efetivamente transferida à carga) deste tipo de fonte seja elevada(da ordem de 70 a 80%), têm a desvantagem de em geral serem volumosas e pesadas.
+
+Fontes Lineares
+As fontes de tensão lineares empregam elementos de controle que, colocados em série ou me paralelo com a carga, fazem  a tensão nesta permanecer constante.
+Apesar de proverem excelente regulação, as fontes de tensão lineares vem sendo cada vez menos utilizadas na prática, devido ao fato de apresentarem baixa eficiência. Em fontes lineares é difícil evitar que uma apreciável parte da potência de entrada seja dissipada pelo elemento de regulação, tornando difícil e onerosa sua construção e uso para elevadas potências. Além disso, as fontes lineares ocupam grandes dimensões físicas devido à necessidade de dissipação de potência e provável utilicaçãp de um volumoso transformador de entrada para isolação e transformação de tensão da entrada.
+
+Fontes Chaveadas
+As fontes chaveadas são idealmente não dissipativas e, assim como as fontes ferro-ressonantes, provêm elevada eficiência(70% ou mais). Neste tipo de circuito, o elemento série funciona como chave. Por exemplo, utilizando-se um transistor bipolar como elemento série, a idéia é que ele opere ora em corte(quando então a corrente Ic é quase nula), ora em saturação(quando então a tensão Vce é quase nula). Em qualquer dessas situações, a dissipação de potência no elemento série, que é dada pelo produto da tensão entre seus terminais pela corrente que passa entre eles, que é baixa.
+Assim, o produto Vce.Ic que corresponde à potência dissipada pelo transistor em condução permanece sempre baixo aumentando a eficiência da fonte. Evidentemente, na prática a potência no elemento série não é totalmente nula, mas através de técnicas de circuito e adequada escolha de componentes esta potência pode ser reduzida a valores relativamente baixos em comparação com a dissipada nas fontes lineares.
+
+Tipos de Fontes Chaveadas
+
+a) Buck, ou step-down, ou rebaixadora - produz uma tensão mais baixa que a original(Vs<Ve).
+
+b)Boost, ou step-up, ou elevadora - produz uma tensão mais alta que a original(Vs>Ve).
+
+c)Buck-Boost, ou inversora - produz uma tensão com polaridade invertida com referência à original.
+
+É importante destacar, entretanto, que a ondulação de saída em fontes chaveadas é muito maior em relação às fontes linearer(quase uma ordem de grandeza).
+
+Nas três configurações, o indutor atua como elemento de armazenamento temporário da energia vinda da fonte de entrada. A energia armazenada no indutor é posteriormente transferida para a carga de saída. É através do controle desse ciclo que se regula a tensão média da saída, o capacitor não é propriamente parte essencial do circuito, é utiliziado apenas para filtrar as componentes alternadas de tensão na sáida.
+
+
+ 
+
+
+
